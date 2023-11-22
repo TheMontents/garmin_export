@@ -1,0 +1,20 @@
+curl 'https://connect.garmin.com/usersummary-service/stats/steps/daily/2023-10-02/2023-10-12' \
+  -H 'authority: connect.garmin.com' \
+  -H 'accept: application/json, text/plain, */*' \
+  -H 'accept-language: de-DE,de;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'authorization:  ***' \
+  -H 'baggage: sentry-environment=prod,sentry-release=connect%404.67.218,sentry-transaction=%2Fmodern%2Freport%2F%3Cdigits%3E%2Fwellness,sentry-public_key=f0377f25d5534ad589ab3a9634f25e71,sentry-trace_id=9db37bd51dad4eb3b9b223e799286299,sentry-sample_rate=1' \
+  -H 'cookie:  ***' \
+  -H 'di-backend: connectapi.garmin.com' \
+  -H 'nk: NT' \
+  -H 'referer: https://connect.garmin.com/modern/report/29/wellness/last_four_weeks' \
+  -H 'sec-ch-ua: "Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "Windows"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sentry-trace: 9db37bd51dad4eb3b9b223e799286299-a436b134a1588384-1' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36' \
+  -H 'x-app-ver: 4.67.1.1' \
+  --compressed >> fetch_period_7.json
